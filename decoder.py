@@ -3,7 +3,7 @@ from torch import nn
 import torch.nn.functional as F
 import einx
 import lightning
-from attention import SelfAttention
+from custom_ddpm.attention import SelfAttention
 import dataclasses
 
 @dataclasses.dataclass(kw_only=True)

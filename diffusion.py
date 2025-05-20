@@ -4,8 +4,8 @@ import torch.nn.functional as F
 import einx
 import lightning
 import dataclasses
-from attention import SelfAttention
-from attention import CrossAttention
+from custom_ddpm.attention import SelfAttention
+from custom_ddpm.attention import CrossAttention
 
 @dataclasses.dataclass(kw_only=True)
 class UnetConfig:

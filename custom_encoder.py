@@ -3,7 +3,7 @@ from torch import nn
 import torch.nn.functional as F
 import einx
 import lightning
-from decoder import VAE_AttentionBlock,VAE_ResidualBlock,EncoderConfig
+from custom_ddpm.decoder import VAE_AttentionBlock,VAE_ResidualBlock,EncoderConfig
 
 class Encoder(lightning.LightningModule):
 
